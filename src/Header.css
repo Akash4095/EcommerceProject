@@ -1,0 +1,90 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+  text-align: center;
+  margin: 0;
+  padding: 0px;
+  padding-bottom: 30px;
+  background: #111;
+  color: white;
+}
+
+header li{
+  margin: 0px 40px;
+  padding-top: 10px;
+}
+
+header ul a{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li{
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+header ul{
+  display: flex;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 200;
+  justify-content: center;
+  list-style-type: none;
+  border-bottom: .01rem solid white;
+  position: fixed;
+  top: 0%;
+  background: black;
+  width: 100%;
+  z-index: 1;
+}
+
+ul{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.btn{
+  position: absolute;
+  top: 10px;
+  font-size: 20px;
+  right: 25px;
+  padding: 5px 10px;
+  border: royalblue;
+  border-radius: 7px;
+ color: royalblue;
+  position: absolute;
+  box-shadow: 0 2px 8px rgba(0,0,0,.25);
+  
+  cursor: pointer;
+}
+
+.btn:hover{
+ background-color:rgb(233, 253, 143);
+}
+.cart-number{
+  position: absolute;
+  color: #56ccf2;
+  font-size: 20px;
+  top: -10px;
+  right: -15px;
+}
+
+header h1{
+  padding: 40px;
+  margin-top: 10px;
+  font-size: 100px;
+  background-color: #777;
+  height: 250px;
+  color: whitesmoke;
+  text-align: center;
+}
